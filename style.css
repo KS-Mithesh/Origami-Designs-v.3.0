@@ -1,0 +1,63 @@
+.heading{
+    color: white;
+    background-image: url("https://wallpapercave.com/wp/wp4047946.jpg");
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+}
+
+.origami img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    display: flex;
+    font-family: cursive;
+    border-radius: 20px;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.topbar{
+    background-color: black;
+    text-align: right;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+li{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.origami:hover{
+    transform: scale(1.05);
+    border: 2px solid black;
+}
